@@ -109,9 +109,3 @@ def set_token():
     "grant_type": "client_credentials",
     "scope": "*"
     }
-
-def apiHeaders(token):
-
-    return {
-    "Authorization": f"Bearer {token['access_token']}"
-    }

@@ -1,4 +1,4 @@
-# python-sample
+# flask-sample
 Sample Python + Flask CRUD application
 
 Purpose
@@ -11,8 +11,6 @@ Installation
 
 To install the sample app you need to have Python 3+ installed. You can
 then install the project dependencies by running:
-
-.. code-block:: console
 
     $ pip install -r requirements.txt
 
@@ -30,8 +28,6 @@ needed to run. Then, replace the sample values for ``CLIENT_ID``, ``CLIENT_SECRE
 Next, define some necessary environment variables.
 
 Next, run the web server.
-
-.. code-block:: console
 
     flask run
 
